@@ -1,0 +1,43 @@
++util
+	|file_text_open_read_safe
+	|rect
++load
+	|create
+	|createui
+	|load_theme
++step
+	|step
+	|update_view
+	|step_windowzoom
+	|step_leftmouse
++buttons
+	|textfield_actions
+	|textfield_set
+	|button_actions
+	|button_held
+	|button_draw
+	|draw_button_ext
++draw
+	|drawtooltip
+	|draw_loader
+	|drawui
+	|draw_room
++to be implemented
+	+undo
+		|pop_undo
+	|save_path
+	|show_prefs
++shaderfont
+	|draw
+	|__gm82sf_vertex_helper
+	|__gm82sf_shader
+	|__gm82sf_vertex_helper_helper
+	|gm82sf_init
+	|gm82sf_set_text
+	|gm82sf_set_color_surface
+	|gm82sf_set_area
+	|gm82sf_draw
+	|test_string
+	|gm82sf_get_color_width
+	|gm82sf_get_color_height
+	|bad_apple
