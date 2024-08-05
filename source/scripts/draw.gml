@@ -1,5 +1,5 @@
 if (mode) {
-    gm82sf_draw(48+6,32+6)
+    gm82sf_draw(x+6,y+6)
 } else {
     draw_text(x,y,text_normal)
 }

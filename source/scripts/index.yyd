@@ -1,6 +1,6 @@
 create
-load_theme
-update_view
+theme_apply
+
 step_windowzoom
 step
 createui
@@ -12,7 +12,7 @@ drawtooltip
 button_held
 step_leftmouse
 button_actions
-save_path
+save_file
 show_prefs
 pop_undo
 textfield_set
@@ -21,8 +21,8 @@ rect
 file_text_open_read_safe
 draw_loader
 
-draw_room
-draw
+
+
 __gm82sf_vertex_helper
 __gm82sf_shader
 __gm82sf_vertex_helper_helper
@@ -35,4 +35,7 @@ test_string
 gm82sf_get_color_width
 gm82sf_get_color_height
 
-bad_apple
+
+theme_init
+createui_script
+createui_object

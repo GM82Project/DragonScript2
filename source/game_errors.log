@@ -1,0 +1,8 @@
+ERROR in
+action number 1
+of Draw Event
+for object AutoComplete:
+
+Error in code at line 1:   draw_button_ext(x,y,x+w,y+h,1,global.col_main)                        ^at position 23: Unknown variable w
+
+

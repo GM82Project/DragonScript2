@@ -4,10 +4,12 @@
 +load
 	|create
 	|createui
-	|load_theme
+	|createui_script
+	|createui_object
+	|theme_init
+	|theme_apply
 +step
 	|step
-	|update_view
 	|step_windowzoom
 	|step_leftmouse
 +buttons
@@ -21,14 +23,12 @@
 	|drawtooltip
 	|draw_loader
 	|drawui
-	|draw_room
 +to be implemented
 	+undo
 		|pop_undo
-	|save_path
+	|save_file
 	|show_prefs
 +shaderfont
-	|draw
 	|__gm82sf_vertex_helper
 	|__gm82sf_shader
 	|__gm82sf_vertex_helper_helper
@@ -40,4 +40,3 @@
 	|test_string
 	|gm82sf_get_color_width
 	|gm82sf_get_color_height
-	|bad_apple

@@ -3,42 +3,10 @@ i=instance_create(0,0,Button)
 i.spr=0
 i.action="save and quit"
 i.alt="Save and close"
-i.w=160
+i.w=200
 
-/*i=instance_create(0,32,TextField)
-i.action="path name"
-i.type=3
-i.dynamic=1
-i.maxlen=14
-i.w=160
-textfield_set("path name",pathname)
-
-i=instance_create(8,72,Button)
-i.type=1
-i.action="smooth"
-i.text="Smooth"
-i.alt="Path uses a bezier curve instead of straight lines"
-
-i=instance_create(8,100,Button)
-i.type=1
-i.action="closed"
-i.text="Closed"
-i.alt="The last point connects to the first point"
-
-i=instance_create(116,124,TextField)
-i.action="precision"
-i.w=36
-i.basealt="precision"
-i.maxlen=4
-textfield_set("precision",4)
-
-i=instance_create(8,184,TextField)
-i.action="room"
-i.w=144
-i.basealt="room"
-i.maxlen=12
-textfield_set("room",roomname)
-               */
+if (mode==0) createui_script()
+else createui_object()
 
 with (Button) {
     if (object_index==Button && type==1) {
