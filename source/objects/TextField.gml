@@ -23,7 +23,6 @@ minval=0
 maxval=0
 type=0
 anchor=0
-tagmode=-1
 gray=0
 
 selected=0

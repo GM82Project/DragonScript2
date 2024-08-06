@@ -39,3 +39,4 @@ gm82sf_get_color_height
 theme_init
 createui_script
 createui_object
+drawui_object

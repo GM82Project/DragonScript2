@@ -16,7 +16,7 @@ room_caption="Game Maker 8.2 Code Editor"
 theme_init()
 theme_apply()
 
-global.dont=0
+mode=1
 
 instance_create(0,0,Interface)
 //instance_create(248+4,32+4,ShaderFont)

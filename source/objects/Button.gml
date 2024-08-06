@@ -14,7 +14,6 @@ dynamic=-1
 alt=""
 anchor=0
 type=0
-tagmode=-1
 downcount=0
 gray=0
 #define Step_0

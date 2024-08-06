@@ -23,6 +23,7 @@
 	|drawtooltip
 	|draw_loader
 	|drawui
+	|drawui_object
 +to be implemented
 	+undo
 		|pop_undo
