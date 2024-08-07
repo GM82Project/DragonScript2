@@ -8,10 +8,10 @@ statusy=height-32
 statusw=width
 statush=32
 
-draw_button_ext(0,32,200,height-32-32,0,global.col_main)
+//draw_button_ext(0,32,200,height-32-32,0,global.col_main)
 rect(200,0,statusw,32,global.col_main,1)
-draw_button_ext(200,32,48,height-32-32,0,global.col_high)
-draw_button_ext(248,32,width-48,height-32-32,0,0)
+draw_button_ext(400,32,48,height-32-32,0,global.col_high)
+draw_button_ext(448,32,width-48,height-32-32,0,0)
 
 with (ShaderFont) gm82sf_draw(x,y)
 with (ObjectEvents) drawui_object()

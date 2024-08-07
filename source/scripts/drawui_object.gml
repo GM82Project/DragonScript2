@@ -1,5 +1,5 @@
 //object editor
-draw_button_ext(0,32,200,y-32,0,global.col_main)
+draw_button_ext(0,32,200,height-32-32,0,global.col_main)
 draw_button_ext(4,76,200-8,140,1,global.col_main)
 
 draw_text(12,88,"Sprite:")

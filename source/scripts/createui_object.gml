@@ -1,4 +1,4 @@
-instance_create(0,420,ObjectEvents)
+instance_create(0,0,ObjectEvents)
 
 i=instance_create(8,32+8,TextField)
 i.type=3
