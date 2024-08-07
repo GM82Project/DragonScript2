@@ -16,10 +16,12 @@ room_caption="Game Maker 8.2 Code Editor"
 theme_init()
 theme_apply()
 
+load_object()
+
 mode=1
 
 instance_create(0,0,Interface)
-//instance_create(248+4,32+4,ShaderFont)
+instance_create(248+4,32+4,ShaderFont)
 bgtex=background_get_texture(bgBlack)
 
 window_set_size(1200,500)

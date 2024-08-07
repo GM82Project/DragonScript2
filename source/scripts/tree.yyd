@@ -1,6 +1,8 @@
 +util
 	|file_text_open_read_safe
 	|rect
+	|loadthumb
+	|call_nmenu
 +load
 	|create
 	|createui
@@ -8,6 +10,8 @@
 	|createui_object
 	|theme_init
 	|theme_apply
+	+resource tree
+		|load_sprite_tree
 +step
 	|step
 	|step_windowzoom
@@ -41,3 +45,5 @@
 	|test_string
 	|gm82sf_get_color_width
 	|gm82sf_get_color_height
++save/load
+	|load_object

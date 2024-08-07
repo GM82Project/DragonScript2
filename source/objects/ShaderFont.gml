@@ -8,6 +8,13 @@ mode=1
 
 gm82sf_init(fntJet)
 gm82sf_set_area(800,412)
+alarm[0]=2
+#define Alarm_0
+/*"/*'/**//* YYD ACTION
+lib_id=1
+action_id=603
+applies_to=self
+*/
 gm82sf_set_text(test_string())
 
 //optional

@@ -40,3 +40,7 @@ theme_init
 createui_script
 createui_object
 drawui_object
+load_sprite_tree
+loadthumb
+load_object
+call_nmenu

@@ -12,6 +12,7 @@ if (resizecount<10) {
         window_resize_buffer(width,height,1,0)
         view_wport[0]=width
         view_hport[0]=height
+        with (ShaderFont) alarm[0]=2
         with (Button) {
             if (anchor==1 || anchor==3) x=width-offx
             if (anchor==2 || anchor==3) y=height-offy
